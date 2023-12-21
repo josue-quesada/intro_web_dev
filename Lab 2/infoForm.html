@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Info Form</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      span {
+        color: red;
+      }
+      form {
+        width: 900px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>General Info</legend>
+        <label for="fname">First name:</label>
+        <span>(*)</span>
+        <input type="text" id="fname" name="fname" style="width: 300px" />
+
+        <label for="lname">Last name:</label>
+        <span>(*)</span>
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          style="width: 350px"
+        /><br /><br />
+
+        <label for="email">Email:</label>
+        <span>(*)</span>
+        <input type="email" id="email" name="email" style="width: 330px" />
+
+        <label for="tel">Phone Number:</label>
+        <span>(*)</span>
+        <input
+          type="number"
+          id="tel"
+          name="tel"
+          placeholder="e.g. 8888 9999"
+          style="width: 319px"
+        /><br /><br />
+        <label for="bday">Birthday:</label>
+        <input type="date" id="bday" name="bday" />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" />
+      </fieldset>
+    </form>
+    <br /><br />
+    <form>
+      <fieldset>
+        <legend>Address</legend>
+        <label for="address">Address:</label>
+        <span>(*)</span>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="523 Av, Doral"
+          style="width: 774px"
+        /><br /><br />
+        <label for="lad1">Line Address 1:</label>
+        <span>(*)</span>
+        <input type="text" id="lad1" name="lad1" style="width: 272px" />
+
+        <label for="lad2">Line Address 2:</label>
+        <input
+          type="text"
+          id="lad2"
+          name="lad2"
+          style="width: 340px"
+        /><br /><br />
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" style="width: 364px" />
+
+        <label for="state">State:</label>
+        <span>(*)</span>
+        <input
+          type="text"
+          id="state"
+          name="state"
+          style="width: 382px"
+        /><br /><br />
+
+        <label for="zip">ZIP Code:</label>
+        <span>(*)</span>
+        <input type="number" id="zip" name="zip" style="width: 308px" />
+
+        <label for="countries">Country:</label>
+        <span>(*)</span>
+        <select id="countries" name="countries">
+          <option value="1">Costa Rica</option>
+          <option value="2">España</option>
+          <option value="3">Portugal</option>
+          <option value="4">USA</option>
+          <option value="5">Canada</option>
+        </select>
+      </fieldset>
+    </form>
+    <br />
+    <span>(*) <b style="color: black">Required Fields</b></span>
+  </body>
+</html>

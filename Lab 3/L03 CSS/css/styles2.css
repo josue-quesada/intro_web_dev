@@ -1,0 +1,151 @@
+body {
+  background-color: rgb(0, 67, 70);
+  color: rgb(117, 221, 221);
+}
+
+nav {
+  width: 20%;
+  float: left;
+}
+
+ul {
+  list-style: none;
+  background-color: rgb(23, 42, 58);
+  border: 1px solid rgb(117, 221, 221);
+  margin: 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+li {
+  background-color: rgb(80, 137, 145);
+  border: 1px solid rgb(117, 221, 221);
+  text-align: center;
+  padding: 5px;
+  color: rgb(23, 42, 58);
+}
+
+li:hover {
+  background-color: rgb(117, 221, 221);
+}
+
+.header {
+  text-align: center;
+  background-color: rgb(23, 42, 58);
+  border-radius: 10px;
+  margin: 10px 0px;
+  border: 1px solid rgb(117, 221, 221);
+}
+
+.header h1 {
+  margin: 0px;
+  padding: 5px;
+}
+
+.post-section {
+  background-color: rgb(23, 42, 58);
+  width: 56%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(117, 221, 221);
+}
+
+article{
+  margin-bottom: 20px;
+}
+
+hgroup h1{
+  background-color: rgb(117, 221, 221);
+  color: rgb(23, 42, 58);
+  padding: 2px;
+  border-radius: 5px;
+  margin: 2px 0px;
+  font-size: x-large;
+}
+
+hgroup h2{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: rgb(9, 188, 138);
+  font-size: larger;
+}
+
+.follows h3{
+  display: inline-flex;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+  color: rgb(9, 188, 138);
+}
+
+img{
+  float: left;
+}
+
+.info{
+  margin-top: 20px;
+}
+
+.left-nav {
+  position: absolute;
+  top: 69px;
+  right: 0;
+  float: right;
+  width: 20%;
+  margin-right: 8px;
+}
+
+.footer {
+  background-color: rgb(23, 42, 58);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+}
+
+.profile-footer{
+  margin-top: 10px;
+  color: rgb(9, 188, 138);
+}
+
+button {
+  background-color: rgb(9, 188, 138);
+  color: rgb(23, 42, 58);
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 2px;
+  margin: 2px;
+  border: 1px solid rgb(23, 42, 58);
+}
+
+button:active{
+  background-color: rgb(0, 67, 70);
+  color: white;
+}
+
+.menu button {
+  margin: 0px;
+}
+
+.search-bar{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(23, 42, 58);
+  border: 1px solid rgb(117, 221, 221);
+  padding: 5px;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.search-bar label{
+  margin-top: 2px;
+}
+
+.search-input{
+  width: 67%;
+  margin: 0px 4px;
+}
+
